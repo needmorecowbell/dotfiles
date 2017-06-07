@@ -1,0 +1,11 @@
+- clean: ['~']
+
+- link:
+    ~/.profile: profile
+    ~/.tmux.conf: tmux.conf
+    ~/.zshrc: zshrc
+    ~/.config/i3:
+        path: config/i3/
+        create: true
+
+
