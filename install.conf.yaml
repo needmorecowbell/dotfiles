@@ -1,3 +1,8 @@
+- defaults:
+    link:
+      relink: true
+
+
 - clean: ['~']
 
 - link:
@@ -8,4 +13,5 @@
         path: config/i3/
         create: true
 
-
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
